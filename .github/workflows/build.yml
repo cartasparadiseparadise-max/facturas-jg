@@ -13,9 +13,9 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        include:
-          - platform: windows-latest
-          - platform: macos-latest
+        platform:
+          - windows-latest
+          - macos-latest
 
     runs-on: ${{ matrix.platform }}
 
@@ -32,10 +32,13 @@ jobs:
           node-version: 20
 
       - name: Install dependencies
-        run: npm install --include=dev
+        run: npm install
+
+      - name: Install Tauri CLI
+        run: npm install -g @tauri-apps/cli
 
       - name: Build app
-        run: npx @tauri-apps/cli build
+        run: tauri build
 
       - name: Upload bundle
         uses: actions/upload-artifact@v4

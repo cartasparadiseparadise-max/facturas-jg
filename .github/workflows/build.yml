@@ -32,10 +32,10 @@ jobs:
           node-version: 20
 
       - name: Install dependencies
-        run: npm install
+        run: npm install --include=dev
 
       - name: Build app
-        run: npx tauri build
+        run: npx @tauri-apps/cli build
 
       - name: Upload bundle
         uses: actions/upload-artifact@v4

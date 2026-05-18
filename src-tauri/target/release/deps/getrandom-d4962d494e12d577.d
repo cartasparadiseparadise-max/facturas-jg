@@ -1,0 +1,12 @@
+C:\FacturaVeri\src-tauri\target\release\deps\getrandom-d4962d494e12d577.d: C:\Users\u\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\getrandom-0.4.2\src\lib.rs C:\Users\u\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\getrandom-0.4.2\src\backends.rs C:\Users\u\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\getrandom-0.4.2\src\error.rs C:\Users\u\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\getrandom-0.4.2\src\util.rs C:\Users\u\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\getrandom-0.4.2\src\../README.md C:\Users\u\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\getrandom-0.4.2\src\backends\windows.rs
+
+C:\FacturaVeri\src-tauri\target\release\deps\libgetrandom-d4962d494e12d577.rlib: C:\Users\u\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\getrandom-0.4.2\src\lib.rs C:\Users\u\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\getrandom-0.4.2\src\backends.rs C:\Users\u\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\getrandom-0.4.2\src\error.rs C:\Users\u\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\getrandom-0.4.2\src\util.rs C:\Users\u\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\getrandom-0.4.2\src\../README.md C:\Users\u\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\getrandom-0.4.2\src\backends\windows.rs
+
+C:\FacturaVeri\src-tauri\target\release\deps\libgetrandom-d4962d494e12d577.rmeta: C:\Users\u\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\getrandom-0.4.2\src\lib.rs C:\Users\u\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\getrandom-0.4.2\src\backends.rs C:\Users\u\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\getrandom-0.4.2\src\error.rs C:\Users\u\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\getrandom-0.4.2\src\util.rs C:\Users\u\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\getrandom-0.4.2\src\../README.md C:\Users\u\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\getrandom-0.4.2\src\backends\windows.rs
+
+C:\Users\u\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\getrandom-0.4.2\src\lib.rs:
+C:\Users\u\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\getrandom-0.4.2\src\backends.rs:
+C:\Users\u\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\getrandom-0.4.2\src\error.rs:
+C:\Users\u\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\getrandom-0.4.2\src\util.rs:
+C:\Users\u\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\getrandom-0.4.2\src\../README.md:
+C:\Users\u\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\getrandom-0.4.2\src\backends\windows.rs:

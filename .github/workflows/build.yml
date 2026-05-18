@@ -1,4 +1,4 @@
-name: Build Facturas JG
+name: Build macOS
 
 on:
   push:
@@ -6,14 +6,8 @@ on:
       - main
 
 jobs:
-  build:
-    strategy:
-      fail-fast: false
-      matrix:
-        platform:
-          - windows-latest
-
-    runs-on: ${{ matrix.platform }}
+  build-macos:
+    runs-on: macos-latest
 
     steps:
       - name: Checkout
@@ -27,23 +21,17 @@ jobs:
       - name: Install Rust
         uses: dtolnay/rust-toolchain@stable
 
-      - name: Install frontend dependencies
+      - name: Install dependencies
         run: npm install
 
       - name: Install Tauri CLI
-        run: npm install @tauri-apps/cli
-
-      - name: Verify Vite
-        run: npx vite --version
-
-      - name: Verify TypeScript
-        run: npx tsc --version
+        run: cargo install tauri-cli
 
       - name: Build app
-        run: npx tauri build
+        run: cargo tauri build
 
-      - name: Upload bundle
+      - name: Upload DMG
         uses: actions/upload-artifact@v4
         with:
-          name: FacturasJG
-          path: src-tauri/target/release/bundle
+          name: FacturasJG-macOS
+          path: src-tauri/target/release/bundle/dmg
